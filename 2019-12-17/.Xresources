@@ -1,0 +1,15 @@
+!     ▄  █▄▄▄▄ ▄███▄     ▄▄▄▄▄   ████▄   ▄   █▄▄▄▄ ▄█▄    ▄███▄     ▄▄▄▄▄   
+! ▀▄   █ █  ▄▀ █▀   ▀   █     ▀▄ █   █    █  █  ▄▀ █▀ ▀▄  █▀   ▀   █     ▀▄ 
+!   █ ▀  █▀▀▌  ██▄▄   ▄  ▀▀▀▀▄   █   █ █   █ █▀▀▌  █   ▀  ██▄▄   ▄  ▀▀▀▀▄   
+!  ▄ █   █  █  █▄   ▄▀ ▀▄▄▄▄▀    ▀████ █   █ █  █  █▄  ▄▀ █▄   ▄▀ ▀▄▄▄▄▀    
+! █   ▀▄   █   ▀███▀                   █▄ ▄█   █   ▀███▀  ▀███▀             
+!  ▀      ▀                             ▀▀▀   ▀                             
+!
+! -----------------------------------
+
+#include "~/.config/xresources/fonts.xresources"
+#include "~/.config/xresources/urxvt.xresources"
+#include "~/.config/xresources/xscreensaver.xresources"
+#include "~/.config/xresources/srcery.xresources"
+
+!Xcursor.theme: Breeze

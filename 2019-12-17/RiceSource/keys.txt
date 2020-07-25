@@ -1,0 +1,4 @@
+Ranger Keybinds:
+Q       Quit
+       Select File
+       Move In/Out of Directory

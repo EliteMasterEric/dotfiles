@@ -1,0 +1,11 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "window.closeWhenEmpty": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 0,
+    "editor.fontSize": 20,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'FuraCode Nerd Font Mono'"
+}
