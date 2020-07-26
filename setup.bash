@@ -12,7 +12,8 @@ echo "Y888888P VP   V8P '8888Y'    YP    YP   YP Y88888P Y88888P Y888888P VP   V
 # ------------
 
 # Basic required apps
-pacman -Syu --noconfirm nano git python ruby
+pacman -Syu --noconfirm nano git python ruby wget
+
 # Window manager dependencies
 pacman -Syu --noconfirm xorg-server xorg-xinit pciutils nvidia
 
@@ -28,3 +29,14 @@ pacman -Syu --noconfirm i3-gaps
 
 # Text Editor: Visual Studio Code
 pacman -Syu --noconfirm code
+
+#-------------
+#CONFIGURATION
+#-------------
+
+# Git configuration
+cp ./.gitconfig ~/.gitconfig
+
+# XOrg configuration
+cp ./xorg/10-input.conf /etc/X11/xorg.conf.d/
+cp ./xorg/.xinitrc ~/
