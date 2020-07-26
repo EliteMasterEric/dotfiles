@@ -12,9 +12,9 @@ echo "Y888888P VP   V8P '8888Y'    YP    YP   YP Y88888P Y88888P Y888888P VP   V
 # ------------
 
 # Basic required apps
-pacman -Syu nano git python ruby
+pacman -Syu --noconfirm nano git python ruby
 # Window manager dependencies
-pacman -Syu xorg-server xorg-xinit pciutils nvidia
+pacman -Syu --noconfirm xorg-server xorg-xinit pciutils nvidia
 
 # TODO: Modify /etc/X11/xinit/xinitrc
 
@@ -23,8 +23,8 @@ pacman -Syu xorg-server xorg-xinit pciutils nvidia
 # ------------
 
 # Window Manager: i3
-pacman -Syu i3-gaps
+pacman -Syu --noconfirm i3-gaps
 # Call startx to run.
 
 # Text Editor: Visual Studio Code
-pacman -Syu code
+pacman -Syu --noconfirm code
