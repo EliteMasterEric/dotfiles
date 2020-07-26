@@ -14,7 +14,7 @@ echo "Y888888P VP   V8P '8888Y'    YP    YP   YP Y88888P Y88888P Y888888P VP   V
 # Basic required apps
 pacman -Syu nano git python ruby
 # Window manager dependencies
-pacman -Syu xorg-server xorg-xinit
+pacman -Syu xorg-server xorg-xinit pciutils nvidia
 
 # TODO: Modify /etc/X11/xinit/xinitrc
 
