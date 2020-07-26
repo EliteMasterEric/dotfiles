@@ -40,3 +40,6 @@ cp ./.gitconfig ~/.gitconfig
 # XOrg configuration
 cp ./xorg/10-input.conf /etc/X11/xorg.conf.d/
 cp ./xorg/.xinitrc ~/
+
+# TEMPORARY
+pacman -Syu --noconfirm xterm xorg-xclock
