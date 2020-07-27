@@ -1,0 +1,1 @@
+Install Arch with 300 MB EFI space, 512MB Swap, rest is Filesystem

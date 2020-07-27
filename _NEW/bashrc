@@ -1,0 +1,13 @@
+#
+# CUSTOM
+#
+
+# Load color information.
+source ~/.cache/wal/colors.sh
+(cat ~/.cache/wal/sequences &)
+
+# Load font icon aliases.
+source ~/.config/fonts/i_all.sh
+
+# Load trueline for terminal.
+source trueline

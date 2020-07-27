@@ -13,7 +13,6 @@ cd ..
 sudo mkdir /usr/local/share/fonts/google-fonts/
 sudo cp -r ./google-fonts/ofl/ /usr/local/share/fonts/google-fonts/
 
-
 # Download Fira Code from NerdFonts (which merges in FontAwesome)
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/FiraCode.zip
 # Extract to the appropriate location.
@@ -26,7 +25,6 @@ svn export https://github.com/ryanoasis/nerd-fonts/trunk/bin/scripts/lib nerd-fo
 # Install.
 cp ./nerd-fonts/*.sh ~/.config/fonts/
 echo "source ~/.config/fonts/i_all.sh" >> ~/.bashrc
-
 
 # Reset directory changes.
 cd ..
